@@ -4,6 +4,10 @@
 
 ---
 
+모든 자산(이미지)은 assets/index.js에서 관리.
+상수 데이터(navLinks, services, projects)는 constants/index.js에서 관리.
+컴포넌트는 constants에서 정의된 데이터를 가져와 UI를 렌더링.
+
 ## 📂 프로젝트 폴더 구조
 
 3d_portfolio/ 
