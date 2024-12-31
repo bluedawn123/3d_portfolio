@@ -9,6 +9,7 @@ function App() {
           <Navbar />
           <Hero />
         </div>
+        {/* 이 아래는 섹션별로 분리해서 추가되는 컴포넌트 */}
         <About />
         <Experience />
         <Tech />

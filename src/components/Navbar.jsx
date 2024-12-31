@@ -42,17 +42,19 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          {/* 로고는 내꺼로 변경하기... */}
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Yoon's Portfolio &nbsp;
+            <span className='sm:block hidden'> | Web Developer</span>
           </p>
         </Link>
 
+        {/* nav의 목록은 navLinks constants의 index.js에서 가져옴*/}
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
-              key={nav.id}
+              key={nav.id}  //추후 link.id????로 바꿔야 할거같음
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
