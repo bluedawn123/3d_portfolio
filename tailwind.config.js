@@ -18,6 +18,7 @@ module.exports = {
       screens: {
         xs: "450px",
       },
+      //여기서 배경을 정의
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
